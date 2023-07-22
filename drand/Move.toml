@@ -1,0 +1,13 @@
+[package]
+name = "drand"
+version = "0.0.1"
+
+[dependencies.suifrens]
+local = "./deps/suifrens" 
+
+[dependencies.desuilabs]
+local = "./deps/desuilabs" 
+
+[addresses]
+drand=  "0x0"
+sui =  "0x2"
